@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+canvas {
+  position: absolute;
+  z-index: -1;
+}
+
+#text-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+#title {
+  font-weight: 200;
+  font-size: 5em;
+}
+
+#description {
+  margin-top: 1rem;
+  margin-inline: auto;
+  width: 50%;
+}
+
+#button {
+  z-index: 10;
+  margin-top: 2rem;
+  border-radius: 25px;
+  border: 1px solid white;
+  width: max-content;
+  margin-inline: auto;
+  display: flex;
+  position: relative;
+}
+
+#link {
+  padding: 0.8rem 4rem;
+  display: flex;
+  text-decoration: none;
+}
+
+#button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+#arrow-wrapper {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+}
